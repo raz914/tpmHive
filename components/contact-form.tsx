@@ -36,6 +36,8 @@ export function ContactForm({ className }: ContactFormProps) {
   const { toast } = useToast()
 
   const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
+  const verificationEndpoint =
+    process.env.NEXT_PUBLIC_TURNSTILE_VERIFY_URL || "/api/turnstile/verify"
 
   const {
     register,
@@ -63,7 +65,7 @@ export function ContactForm({ className }: ContactFormProps) {
     }
 
     try {
-      const verificationResponse = await fetch("/api/turnstile/verify", {
+      const verificationResponse = await fetch(verificationEndpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
