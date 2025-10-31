@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="150" viewBox="0 0 350 150">
+  <g id="loreal" transform="translate(-38 -41)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="350" height="150" transform="translate(38 41)" fill="none"></rect>
+    <g id="L_Oréal_logo" data-name="L'Oréal_logo" transform="translate(71 90)">
+      <path id="polyline3" d="M435.229,60.473h36.59V56H441.5V41.7h22.772V37.18H441.5V24h30.317V19.551h-36.59V60.473" transform="translate(-280.971 -12.622)"></path>
+      <path id="polyline5" d="M479.855.887,474.9,6.452,490.452.887h-10.6" transform="translate(-306.582 -0.573)"></path>
+      <path id="polyline7" d="M701.356,56V19.551h-5.719V60.473h36.989V56h-31.27" transform="translate(-449.082 -12.622)"></path>
+      <path id="path9" d="M567.46,19.551,546.652,60.473h7.033l5.323-10.592h24.955l5.369,10.592h6.961L575.469,19.551H567.46m-5.817,25.2,9.8-19.546,9.92,19.546Z" transform="translate(-352.902 -12.622)"></path>
+      <path id="path11" d="M324.769,43.361c9.375-2.5,10.286-9.477,10.238-11.971-.56-7.31-5.485-11.839-14.336-11.839H294.88V60.473h5.88V43.307h16.791L329.9,60.473h7.411s-8.89-11.553-12.545-17.112m-4.9-4.89H300.76V24.395h19.775c4.553,0,7.114,2.126,8.037,4.826a7.628,7.628,0,0,1-.791,5.935C326.128,37.89,322.989,38.472,319.869,38.472Z" transform="translate(-190.366 -12.622)"></path>
+      <path id="path13" d="M144.353,0c-16.6,0-27.91,11.7-27.91,25.866,0,14.911,12.5,25.437,27.91,25.437s27.894-10.376,27.894-25.437C172.247,11.7,160.795,0,144.353,0m-.2,46.223c-11.483,0-20.944-9.228-20.944-20.344a21.168,21.168,0,0,1,42.328,0C165.538,37,155.631,46.223,144.153,46.223Z" transform="translate(-75.172)"></path>
+      <path id="polyline15" d="M74.663,34.028h4.243l7.7-14.477h-6.2L74.663,34.028" transform="translate(-48.2 -12.622)"></path>
+      <path id="polyline17" d="M5.722,56V19.551H0V60.473H36.988V56H5.722" transform="translate(0 -12.622)"></path>
+    </g>
+  </g>
+</svg>
