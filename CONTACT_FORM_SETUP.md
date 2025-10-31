@@ -60,6 +60,7 @@ The form now validates Turnstile tokens through `app/api/turnstile/verify/route.
    - `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
    - `TURNSTILE_SECRET_KEY`
    - (Optional SMTP variables if you plan to switch away from EmailJS)
+   - Netlify’s secrets scanner flags any value it finds in the build output. Because these `NEXT_PUBLIC_` values must ship to the browser, they are not secrets. The provided `netlify.toml` automatically sets `SECRETS_SCAN_OMIT_KEYS` so the build succeeds.
 3. Connect the repository to Netlify (or push to the linked branch) and trigger a deploy. The build command `npm run build` and publish directory `.next` are already declared.
 4. The Netlify Next.js plugin will output the contact form as static pages and provision an Edge Function for `/api/turnstile/verify` automatically.
 5. After deployment, open the live site, submit the form, and confirm the Turnstile widget issues tokens and emails arrive.
