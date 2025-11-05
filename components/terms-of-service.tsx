@@ -212,7 +212,7 @@ export function TermsOfService() {
           <div className="bg-card border border-border rounded-lg p-6 mt-4">
             <p className="text-foreground font-semibold mb-2">THEPEPPERMINT LTD</p>
             <p className="text-muted-foreground">TPM HIVE</p>
-            <p className="text-muted-foreground mt-4">E-mail: info@tpmhive.co.uk</p>
+            <p className="text-muted-foreground mt-4">E-mail: info@tpmhive.com</p>
             <p className="text-muted-foreground">Contact No: +44 0114 308 8640</p>
           </div>
         </section>
