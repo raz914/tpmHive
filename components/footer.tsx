@@ -48,7 +48,7 @@ export function Footer({ sectionLinkPrefix = "" }: FooterProps) {
           </div>
           <div>
             <h4 className="font-bold mb-4">Contact</h4>
-            <p className="text-sm opacity-75">info@tpmhive.co.uk</p>
+            <p className="text-sm opacity-75">info@tpmhive.com</p>
             <p className="text-sm opacity-75">+44 0114 308 8640</p>
           </div>
         </div>

@@ -119,7 +119,7 @@ export function ContactForm({ className }: ContactFormProps) {
           reply_to: data.email, // Set Reply-To to visitor's email
           subject: data.subject,
           message: data.message,
-          to_email: "info@tpmhive.co.uk",
+          to_email: "info@tpmhive.com",
 
           // Additional aliases for template compatibility
           name: data.name,

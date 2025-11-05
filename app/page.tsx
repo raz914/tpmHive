@@ -320,7 +320,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h3 className="font-bold text-foreground mb-1">Email</h3>
-                  <p className="text-muted-foreground">info@tpmhive.co.uk</p>
+                  <p className="text-muted-foreground">info@tpmhive.com</p>
                 </div>
               </div>
             </div>
